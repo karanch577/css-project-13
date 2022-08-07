@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background-color: #7030CC;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo{
+    height: 45px;
+    margin: 2em 8em;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list-items{
+    margin-right: 2em;
+}
+
+.item-active{
+    color: #309AE6;
+    border-bottom:  1px solid #C666DD;
+    padding-bottom: .5em;
+}
+
+.btn{
+    color: #fff;
+    background-color: #1BBCEF;
+    padding: 1em 3em;
+    margin-right: 5em;
+}
+
+/* Hero */
+
+.hero{
+    display: flex;
+    background-color: #7030CC;
+    color: #fff;
+}
+
+.hero-heading{
+    font-size: 4rem;
+}
+
+.hero-left{
+    width: 47%;
+    margin-left: 7.5em;
+    margin-top: 5em;
+}
+
+.hero-right{
+    width: 47%;
+
+}
+
+/* Main */
+
+.main{
+    display: flex;
+}
+
+.main-left{
+    width: 47%;
+}
+
+.main-right{
+    width: 47%;
+    margin-top: 8em;
+}
+
+
+
+.heading{
+    font-size: 2rem;
+}
+
+/* Replace the default bullet point */
+
+.main-lists h2::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3e5";
+    display: inline-block;
+    transform: scaleX(-1);
+    color: #F28A3F;
+    margin-right: .5em;
+    position: relative;
+    top: 3px;
+    
+}
+.main-lists:nth-child(2) h2::before{
+    color: #88CF4F;
+}
+.main-lists:nth-child(3) h2::before{
+    color: #469FF3;
+}
+
+.main-list{
+    list-style-type: none;
+    margin: 2em;
+
+}
+.main-list p{
+    margin: 1em 0;
+    margin-left: 2.25em;
+}
+
+/* card */
+
+.card{
+    margin: 1em 10em;
+}
+
+.card .heading{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 3em;
+}
+
+.card-img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 1.5em;
+    margin: 2em 0;
+}
+
+.img1{
+    background-color: #FAEAEB;
+}
+
+.img2{
+    background-color: #FBF0EE;
+   
+}
+.img3{
+    background-color: #E9F4F6;
+   
+}
+.img4{
+    background-color: #F2E7F5;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px #C3C3C3;
+    border-radius: 15px;
+}
+
+.cards .description{
+    margin: .5em 2em
+}
+.active-card{
+    background-color: #6429B7;
+    color: #fff;
+    padding-top: 1em;
+    text-align: center;
+    border-radius: 15px;
+}
