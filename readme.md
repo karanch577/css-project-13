@@ -8,7 +8,7 @@
     - flexbox
 
 ## Time taken to complete this project
-    - 4 hours
+    - 4 hours + 45min (responsiveness)
 
 ## Screenshot
 ![image](project13.png)
